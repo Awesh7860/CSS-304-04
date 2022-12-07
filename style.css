@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.maindiv{
+    width: 60vw;
+    height: 10vh;
+   margin-top: 10px;
+   margin-left: 10px;
+   display: flex;
+    background-color: #0d0620;
+}
+.maindivleft
+{
+    width: 90%;
+    height: 100%;
+}
+.maindivleft ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+ul{
+    color:gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font: weight 500;
+}
+.myvoot{
+    color: white;
+}
+.maindivright{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.maindivright i {
+    color: white;
+}
